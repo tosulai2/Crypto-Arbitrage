@@ -5,19 +5,29 @@ In this challenge, I sorted through historical trade data for Bitcoin on two exc
 
 I created a Jupyter notebook that contains code for data collection from CSV data, preparation of datasets for analysis by cleaningmissing/erroneous data, and analysis through summary and visualizations toselect time periods for arbitrage opportunities.
 
-Technologies
-This project uses Python programming language, user prompts in the command line interface, the libraries and functions in the below file structure, and Windows OS.
+## Technologies
 
-File Structure App.py (load_bank_data, get_applicant_info, find_qualifying_loans, save_qualifying_loans, run): Data: daily_rate_sheet.csv Utilized files/functions/libraries (file name & functions): Csv library Sys library Fire library Questionary library calculators.py (calculate_monthly_debt_ratio, calculate_loan_to_value_ratio) fileio.py (load_csv, save_csv) Max_loan_size.py (filter_max_loan_size) Credit_score (filter_credit_score) Debt_to_income (filter_debt_to_income) Loan_to_value (filter_loan_to_value) Actions (broken out by file name and functions): -
+This project uses Python programming language, Jupyter notebook, the libraries and functions associated, etc.
 
-Installation Guide
-Make sure to install Lorem Epsom
+## Installation Guide
 
-Usage
- Lorem Epson
+Make sure to install Jupyter notebook (comes with Anaconda)
 
-Contributors
+## Usage
+
+General information about your analysis: Overall, the arbotrage was significantly positive/higher in the beginning of the time period vs the end of the time period (bitstamp prices were lower than coinbase's at the beginning)
+
+Information about the datasets:
+    Names: bitstamp.csv and coinbase.csv
+    Beginning date: 01/01/2018
+    End date: 03/31/2018
+
+Libraries used in analysis: pandas and matplotlib libraries
+
+## Contributors
+
 Name: Taofik Sulaiman | Phone: 2407162877 | Email: taofik.sulaiman@gmail.com | Linkedin: https://linkedin.com/in/taofik-sulaiman | Twitter: https://twitter.com/taofik_smk
 
-License
+## License
+
 OpenSource License, feel free to use as needed but make sure to givce me credit and contact me to let me know the cool ways you used this. I obtained portions of this code via the University of California BerekelY Fintech Bootcamp curated by Trilogy U Edcuation
